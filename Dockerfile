@@ -54,8 +54,8 @@ RUN git submodule update --init
 # Parsoid setup
 WORKDIR /usr/lib/
 
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
-	apt-get install -y nodejs && \
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
+	apt-get install -y nodejs && \	
 	git clone https://gerrit.wikimedia.org/r/p/mediawiki/services/parsoid
 
 WORKDIR /usr/lib/parsoid
