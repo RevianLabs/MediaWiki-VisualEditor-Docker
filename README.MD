@@ -69,7 +69,7 @@ services:
     volumes:
       - 'mariadb_data:/var/lib/mysql'
   mediawiki:
-    image: 'mediawiki-parsoid'
+    image: 'revianlabs/mediawiki-ve-bundle'
     ports:
       - '8000:80'
     volumes:
