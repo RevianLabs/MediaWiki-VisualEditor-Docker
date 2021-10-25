@@ -23,13 +23,13 @@ volumes:
     driver: local
   mediawiki_data:
     driver: local
-    driver_opts:
-      type: 'none'
-      o: 'bind'
-      device: '/var/www/mediawiki_data'
+    # driver_opts:
+    #   type: 'none'
+    #   o: 'bind'
+    #   device: '/var/www/mediawiki_data'
   parsoid_data:
     driver: local
-    driver_opts:
-      type: 'none'
-      o: 'bind'
-      device: '/var/www/parsoid_data'
+    # driver_opts:
+    #   type: 'none'
+    #   o: 'bind'
+    #   device: '/var/www/parsoid_data'
