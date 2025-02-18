@@ -1,3 +1,6 @@
+# Archived as Parsoid is bundled with MediaWiki now
+## Use the official MediaWiki docker image: https://hub.docker.com/_/mediawiki
+
 # MediaWiki Docker Image (with Parsoid & VisualEditor)
 
 Based on MediaWiki release [1.32.1](https://www.mediawiki.org/wiki/Release_notes/1.32.1).
